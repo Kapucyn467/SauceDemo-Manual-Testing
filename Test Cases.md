@@ -18,9 +18,14 @@ Projekt przedstawia przykładową specyfikację testów manualnych przygotowaną
 
 #  Test Suite: Checkout
 
-**Test Case:** TC-7 – Checkout
+**Test Case:** TC-1 – Checkout
 
 **Autor:** kapucyn
+
+### Preconditions
+
+- Użytkownik jest zalogowany
+- W koszyku znajduje się co najmniej jeden produkt
 
 | Krok | Akcja | Oczekiwany rezultat |
 |------|--------|---------------------|
@@ -43,7 +48,7 @@ Projekt przedstawia przykładową specyfikację testów manualnych przygotowaną
 
 #  Test Suite: Koszyk
 
-**Test Case:** TC-5 – Koszyk
+**Test Case:** TC-2 – Koszyk
 
 **Autor:** kapucyn
 
@@ -70,7 +75,7 @@ Projekt przedstawia przykładową specyfikację testów manualnych przygotowaną
 
 #  Test Suite: Logowanie
 
-**Test Case:** TC-4 – Weryfikacja logiki logowania
+**Test Case:** TC-3 – Weryfikacja logiki logowania
 
 **Autor:** kapucyn
 
@@ -101,9 +106,14 @@ Dostępne konta testowe:
 
 #  Test Suite: Sortowanie produktów
 
-**Test Case:** TC-6 – Sortowanie produktów
+**Test Case:** TC-4 – Sortowanie produktów
 
 **Autor:** kapucyn
+
+### Preconditions
+
+- Użytkownik jest zalogowany
+- Użytkownik znajduje się na stronie Inventory
 
 | Krok | Akcja | Oczekiwany rezultat |
 |------|--------|---------------------|
